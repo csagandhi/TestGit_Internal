@@ -1,0 +1,4 @@
+
+git config --global user.name "csagandhi"
+
+git config --global user.email "amit.gandhi@calsoftinc.com"
