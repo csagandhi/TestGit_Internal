@@ -4,3 +4,5 @@ git config --global user.name "csagandhi"
 git config --global user.email "amit.gandhi@calsoftinc.com"
 
 git remote -v
+
+git pull -u origin
