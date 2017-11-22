@@ -1,0 +1,98 @@
+amit.gandhi@lpt-amit-g MINGW64 ~
+$ pwd
+/c/Users/amit.gandhi
+
+amit.gandhi@lpt-amit-g MINGW64 ~
+$ cd
+
+amit.gandhi@lpt-amit-g MINGW64 ~
+$ pwd
+/c/Users/amit.gandhi
+
+amit.gandhi@lpt-amit-g MINGW64 ~
+$ cd /c
+
+amit.gandhi@lpt-amit-g MINGW64 /c
+$ ls
+'$Recycle.Bin'/             hiberfil.sys            ProgramData/
+'Amit G Data'/              inetpub/                Quarantine/
+ bootmgr                    Intel/                  swapfile.sys
+ BOOTNXT                    pagefile.sys           'System Volume Information'/
+ Calsoft/                   PerfLogs/               tmuninst.ini
+'Documents and Settings'@  'Program Files'/         Users/
+ Eclipse-workspace/        'Program Files (x86)'/   Windows/
+
+amit.gandhi@lpt-amit-g MINGW64 /c
+$ cd A
+Amit G Data/ Automation/
+
+amit.gandhi@lpt-amit-g MINGW64 /c
+$ cd Automation/
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation
+$ cd Git/
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$ pwd
+/c/Automation/Git
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$ git config --global user.name "csagandhi"
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$ git config --global user.email "amit.gandhi@calsoftinc.com"
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$ git clone https://github.com/csagandhi/TestGit_Internal.git
+Cloning into 'TestGit_Internal'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git
+$
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$ ls
+README.md  Test1.txt
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$ git add Test1.txt
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Test1.txt
+
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$ git commit -m "first file in Git" Test1.txt
+[master efe09f3] first file in Git
+ 1 file changed, 4 insertions(+)
+ create mode 100644 Test1.txt
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 353 bytes | 176.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/csagandhi/TestGit_Internal.git
+   8e1d84b..efe09f3  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+amit.gandhi@lpt-amit-g MINGW64 /c/Automation/Git/TestGit_Internal (master)
+$
